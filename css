@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://cdn.flixbus.de/d7files/hi_res_images/header/113_leipzig.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+.jobcenter {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  margin: 0;
+  flex: 1;
+  font-family: "Marck Script", cursive;
+  display: flex;
+}
+.jobcenter-1 {
+  background-color: whitesmoke;
+  color: blueviolet;
+  display: flex;
+  align-items: center;
+  height: 10rem;
+  width: 35rem;
+  box-shadow: 5px 5px 15px black;
+  border-radius: 1rem;
+  padding: 3rem;
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+.linkedin {
+  margin-bottom: 2rem;
+}
+
+.linkedin-png {
+  border-radius: 9999px;
+  height: 3rem;
+}
